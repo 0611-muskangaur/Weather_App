@@ -72,7 +72,7 @@ const Weather = () => {
                             alt={weatherData.weather[0].description}
                             className="mr-2"
                         />
-                        <p className="text-xl">Temperature: {weatherData.main.temp} °C</p>
+                        <p className="text-xl">Temperature: {weatherData.main.temp-2} °C</p>
                     </div>
                     <p className="text-lg">Weather: {weatherData.weather[0].description}</p>
                     <p className="text-lg">Humidity: {weatherData.main.humidity}%</p>
